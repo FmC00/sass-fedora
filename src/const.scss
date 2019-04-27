@@ -1,0 +1,51 @@
+// general rules
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "museo-sans", sans-serif;
+}
+
+$brand-color: #d70f64;
+
+.total-page-container{
+width: 100vw;
+background: white;
+}
+
+.footer-icon{
+  font-size: 40px;
+  color: $brand-color;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+
+
+
+// mixins
+
+@mixin button{
+
+  button{
+    width: 225px;
+    height: 48px;
+    padding-left: 15px;
+    padding-right: 15px;
+    outline: none;
+    background-color: $brand-color;
+    color: white;
+    font-size: 14px;
+    border: 0px;
+
+  }
+}
+
+
+@mixin logo {
+  .logo{
+    width: 244px;
+    height: 30px;
+  }
+}
